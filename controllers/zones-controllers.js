@@ -1,4 +1,4 @@
-const { zones, User } = require('../models');
+const { zones, User } = require('../models').default;
 
 zonesControllers = {
     getzones(req, res) {
