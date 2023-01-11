@@ -6,7 +6,7 @@ const {
     createzones,
     updatezones,
     createReaction,
-    removeReaction
+    removeReaction,
 } = require('../controllers/zones-controllers');
 
 router.route('/')

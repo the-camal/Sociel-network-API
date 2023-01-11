@@ -5,10 +5,10 @@ const {
     getUserById,
     createUser,
     addFriend,
-    deleteFriend
-} = require('../controllers/user-controllers');
+    deleteFriend,
+} = require('../controllers/User-controllers');
 
-router.route('/:userId/friends/:friendId')
+router.route('/:UserId/friends/:friendId')
     .post(addFriend)
     .delete(deleteFriend);
 

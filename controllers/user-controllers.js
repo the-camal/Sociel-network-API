@@ -1,4 +1,4 @@
-const { User, Thoughts } = require('../models').default;
+const { User, zones } = require('../models');
 
 const userController = {
     getAllUsers(req, res) {
